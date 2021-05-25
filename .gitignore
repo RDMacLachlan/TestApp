@@ -219,8 +219,6 @@ rcf/
 BundleArtifacts/
 Package.StoreAssociation.xml
 _pkginfo.txt
-*.appx
-*.appxbundle
 *.appxupload
 
 # Visual Studio cache files
