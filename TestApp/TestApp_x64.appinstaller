@@ -6,7 +6,7 @@
 		Name="RDM-TestApp"
 		Version="1.0.0.0"
 		Publisher="CN=Contoso Software (FOR LAB USE ONLY), O=Contoso Corporation, C=US"
-		Uri="ms-appinstaller:?Source=https://raw.githubusercontent.com/RDMacLachlan/TestApp/master/TestApp/AppPackages/TestApp_x64.appinstaller"
+		Uri="ms-appinstaller:?Source=https://raw.githubusercontent.com/RDMacLachlan/TestApp/master/TestApp/AppPackages/TestApp_1.0.9.0_x64_Test/TestApp_1.0.9.0_x64.msix"
 		ProcessorArchitecture="x64" />
 	<UpdateSettings>
 		<OnLaunch
