@@ -164,6 +164,15 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Dependencies\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Dependencies\Microsoft.NET.CoreRuntime.2.2.appx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Dependencies\Microsoft.VCLibs.x64.Debug.14.00.appx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="msix-lab-cert.pfx" />
     <AdditionalFiles Include="TestApp_x64.appinstaller">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
