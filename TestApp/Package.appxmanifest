@@ -9,7 +9,7 @@
   <Identity
     Name="RDM-TestApp"
     Publisher="CN=Contoso Software (FOR LAB USE ONLY), O=Contoso Corporation, C=US"
-    Version="1.0.8.0" />
+    Version="1.0.9.0" />
 
   <mp:PhoneIdentity PhoneProductId="0d3c05f3-1ace-48d5-9a49-2d3c58f4ae7c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
