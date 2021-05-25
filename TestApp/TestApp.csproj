@@ -25,7 +25,7 @@
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundle>Auto</AppxBundle>
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
-    <AppInstallerUri>https://raw.githubusercontent.com/RDMacLachlan/TestApp/master/TestApp/AppPackages/TestApp_x64.appinstaller</AppInstallerUri>
+    <AppInstallerUri>https://raw.githubusercontent.com/RDMacLachlan/TestApp/master/TestApp/AppPackages</AppInstallerUri>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
