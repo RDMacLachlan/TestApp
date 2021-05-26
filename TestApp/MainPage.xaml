@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="1000" Height="800">
 
     <Grid Width="1000" Height="800">
-        <Rectangle x:Name="Rectangle1" HorizontalAlignment="Left" Height="308" Margin="260,192,0,0" Stroke="Black" VerticalAlignment="Top" Width="608" Opacity="0" Fill="Red"/>
+        <Rectangle x:Name="Rectangle1" HorizontalAlignment="Left" Height="308" Margin="260,192,0,0" Stroke="Black" VerticalAlignment="Top" Width="608" Opacity="0" Fill="#FFFFF300"/>
         <Slider x:Name="Slider1" HorizontalAlignment="Left" Height="40" Margin="303,564,0,0" VerticalAlignment="Top" Width="523" ValueChanged="Slider_ValueChanged"/>
         <Button Content="Close" Height="66" Margin="778,656,0,0" VerticalAlignment="Top" Width="172" FontSize="20" FontWeight="Bold"/>
         <TextBox HorizontalAlignment="Left" Height="74" Margin="148,90,0,0" Text="Try Moving the Slider!" TextWrapping="Wrap" VerticalAlignment="Top" Width="418" FontSize="36" FontWeight="Bold" BorderThickness="0,0,0,0"/>

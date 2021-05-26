@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppInstaller
-	Uri="ms-appinstaller:?Source=https://raw.githubusercontent.com/RDMacLachlan/TestApp/master/TestApp/AppPackages/TestApp_x64.appinstaller"
-	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	Uri="https://royappauthtest.blob.core.windows.net/$web/content/TestApp_x64.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2021">
+  <UpdateUris>
+    <UpdateUri>https://royappauthtest.blob.core.windows.net/$web/content/TestApp_x64.appinstaller</UpdateUri>
+  </UpdateUris>
 	<MainPackage
 		Name="RDM-TestApp"
-		Version="1.0.9.0"
+		Version="1.0.0.0"
 		Publisher="CN=Contoso Software (FOR LAB USE ONLY), O=Contoso Corporation, C=US"
-		Uri="ms-appinstaller:?Source=https://raw.githubusercontent.com/RDMacLachlan/TestApp/master/TestApp/AppPackages/TestApp_1.0.9.0_x64_Test/TestApp_1.0.9.0_x64.msix"
+		Uri="ms-appinstaller:?Source=https://royappauthtest.blob.core.windows.net/$web/content/TestApp_1.0.0.0_x64.msix"
 		ProcessorArchitecture="x64" />
 	<UpdateSettings>
 		<OnLaunch
 			HoursBetweenUpdateChecks="0" />
 	</UpdateSettings>
 </AppInstaller>
-
-https://github.com/RDMacLachlan/TestApp/releases/download/1.0.14.0/TestApp_1.0.14.0_x64.msixbundle

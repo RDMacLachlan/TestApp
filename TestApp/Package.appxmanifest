@@ -4,12 +4,13 @@
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  IgnorableNamespaces="uap mp">
+  xmlns:uap13="http://schemas.microsoft.com/appx/manifest/uap/windows10/13" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build"
+  IgnorableNamespaces="uap mp uap13 build">
 
   <Identity
     Name="RDM-TestApp"
     Publisher="CN=Contoso Software (FOR LAB USE ONLY), O=Contoso Corporation, C=US"
-    Version="1.0.14.0" />
+    Version="1.0.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="0d3c05f3-1ace-48d5-9a49-2d3c58f4ae7c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -17,6 +18,9 @@
     <DisplayName>TestApp</DisplayName>
     <PublisherDisplayName>romaclac</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
+    <uap13:AutoUpdate>
+      <uap13:AppInstaller File="TestApp_x64.appinstaller"/>
+    </uap13:AutoUpdate>
     
   </Properties>
 
