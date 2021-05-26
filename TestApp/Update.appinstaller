@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://royappauthtest.blob.core.windows.net/$web/content/TestApp_x64.appinstaller"
+	Version="1.0.9.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="RDM-TestApp"
+		Version="1.0.9.0"
+		Publisher="CN=Contoso Software (FOR LAB USE ONLY), O=Contoso Corporation, C=US"
+		Uri="https://royappauthtest.blob.core.windows.net/$web/content/TestApp_1.0.9.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

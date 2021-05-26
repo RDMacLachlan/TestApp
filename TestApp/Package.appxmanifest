@@ -10,7 +10,7 @@
   <Identity
     Name="RDM-TestApp"
     Publisher="CN=Contoso Software (FOR LAB USE ONLY), O=Contoso Corporation, C=US"
-    Version="1.0.3.0" />
+    Version="1.0.9.0" />
 
   <mp:PhoneIdentity PhoneProductId="0d3c05f3-1ace-48d5-9a49-2d3c58f4ae7c" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -19,13 +19,13 @@
     <PublisherDisplayName>romaclac</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
     <uap13:AutoUpdate>
-      <uap13:AppInstaller File="TestApp_x64.appinstaller"/>
+      <uap13:AppInstaller File="Update.appinstaller"/>
     </uap13:AutoUpdate>
     
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="11.0.18362.0" />
   </Dependencies>
 
   <Resources>
